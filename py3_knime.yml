@@ -1,0 +1,12 @@
+name: py3_knime
+channels:
+  - conda-forge
+  - knime
+dependencies:
+  - python=3.11
+  - geopandas
+  - pyarrow
+  - knime-python-scripting=5.3
+  - matplotlib
+  
+prefix: /home/knime/miniconda3/envs/py3_knime

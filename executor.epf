@@ -1,6 +1,6 @@
 
 # add python path here
-/instance/org.knime.conda/condaDirectoryPath=/home/knime/condaforge
+/instance/org.knime.conda/condaDirectoryPath=/home/knime/miniconda3
 
 # B - KNIME Python Integration - Default options for Python Integration. By default KNIME uses the bundled environment (shipped with KNIME) if no Conda Environment Propagation node is used.
 # Line below can be set to either "bundled" (default), "conda" or "manual"
@@ -8,7 +8,7 @@
 /instance/org.knime.python3.scripting.nodes/bundledCondaEnvPath=org_knime_pythonscripting
 # Following rows are only required if "bundled" value above is replaced with "conda"
 /instance/org.knime.python3.scripting.nodes/python2CondaEnvironmentDirectoryPath=<path to default conda environment dir>
-/instance/org.knime.python3.scripting.nodes/python3CondaEnvironmentDirectoryPath=/home/knime/condaforge/envs/knime_py39
+/instance/org.knime.python3.scripting.nodes/python3CondaEnvironmentDirectoryPath=/home/knime/miniconda3/envs/py3_knime
 # Following rows are only required if "bundled" value above is replaced with "manual"
 /instance/org.knime.python3.scripting.nodes/python2Path=<path to python2 env>
 /instance/org.knime.python3.scripting.nodes/python3Path=<path to python3 env>
@@ -20,7 +20,7 @@
 /instance/org.knime.python2/serializerId=org.knime.python2.serde.arrow
 # Following rows are only required if "conda" is set above
 /instance/org.knime.python2/python2CondaEnvironmentDirectoryPath=<path to default conda environment dir>
-/instance/org.knime.python2/python3CondaEnvironmentDirectoryPath=/home/knime/condaforge/envs/knime_py39
+/instance/org.knime.python2/python3CondaEnvironmentDirectoryPath=/home/knime/miniconda3/envs/py3_knime
 # Following rows are only required if "conda" value above is replaced with "manual"
 /instance/org.knime.python2/python2Path=<path to python2 env>
 /instance/org.knime.python2/python3Path=<path to python3 env>
@@ -30,12 +30,12 @@
 # Select either "python" or "dl" (without quotation marks) in next row. If "python" is used, the configuration of section B above is reused. If "dl" is used, a custom config for Deep Learning can be provided.
 /instance/org.knime.dl.python/pythonConfigSelection=dl
 # Following rows only required if row above is set to "dl"
-/instance/org.knime.dl.python/kerasCondaEnvironmentDirectoryPath=/home/knime/condaforge/envs/knime_dl_cpu
+/instance/org.knime.dl.python/kerasCondaEnvironmentDirectoryPath=/home/knime/miniconda3/envs/knime_dl_cpu
 /instance/org.knime.dl.python/librarySelection=keras
 /instance/org.knime.dl.python/manualConfig=python3
 /instance/org.knime.dl.python/pythonEnvironmentType=conda
 /instance/org.knime.dl.python/serializerId=org.knime.python2.serde.arrow
-/instance/org.knime.dl.python/tf2CondaEnvironmentDirectoryPath=/home/knime/condaforge/envs/knime_dl_cpu
+/instance/org.knime.dl.python/tf2CondaEnvironmentDirectoryPath=/home/knime/miniconda3/envs/knime_dl_cpu
 /instance/org.knime.dl.python/tf2ManualConfig=python3
 
 # R home
