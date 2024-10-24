@@ -8,5 +8,6 @@ dependencies:
   - pyarrow
   - knime-python-scripting=5.3
   - matplotlib
+  - earthengine-api
   
 prefix: /home/knime/miniconda3/envs/py3_knime
