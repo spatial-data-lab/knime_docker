@@ -1,0 +1,12 @@
+name: knime_dl_cpu
+channels:
+  - conda-forge
+  - knime
+dependencies:
+  - python=3.9
+  - pyarrow
+  - ipython 
+  - py4j
+  - knime-python-scripting=4.7
+  
+prefix: /home/knime/miniconda3/envs/knime_dl_cpu
