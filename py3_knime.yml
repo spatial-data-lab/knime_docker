@@ -28,5 +28,4 @@ dependencies:
   - pointpats
   - scipy
   - scikit-learn
-  
 prefix: /home/knime/miniconda3/envs/py3_knime

@@ -2,11 +2,15 @@ name: knime_dl_cpu
 channels:
   - conda-forge
   - knime
+  - anaconda
 dependencies:
-  - python=3.9
-  - pyarrow
-  - ipython 
-  - py4j
-  - knime-python-scripting=4.7
-  
+  - python=3.6
+  - h5py=2.8
+  - tensorflow-mkl=1.12
+  - keras=2.2.4
+  - pandas=0.25.3
+  - py-xgboost-cpu
+  - scikit-learn
+  - geopandas
+  - scipy
 prefix: /home/knime/miniconda3/envs/knime_dl_cpu
