@@ -1,0 +1,31 @@
+name: py3_knime
+channels:
+  - conda-forge
+  - knime
+dependencies:
+  - python=3.11
+  - geopandas
+  - pyarrow
+  - knime-python-scripting=5.3
+  - matplotlib
+  - earthengine-api
+  - geemap
+  - folium
+  - mapclassify
+  - keplergl
+  - h3-py
+  - geopy
+  - esda
+  - libpysal
+  - mgwr
+  - osmnx
+  - polyline
+  - pulp
+  - pysal
+  - rasterio
+  - seaborn
+  - sympy
+  - pointpats
+  - scipy
+  - scikit-learn
+prefix: /home/knime/miniconda3/envs/py3_knime
