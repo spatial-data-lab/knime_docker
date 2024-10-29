@@ -10,7 +10,7 @@ dependencies:
   - keras=2.2.4
   - pandas=0.25.3
   - py-xgboost-cpu
-  - scikit-learn
-  - geopandas
-  - scipy
+  # - scikit-learn
+  # - geopandas
+  # - scipy
 prefix: /home/knime/miniconda3/envs/knime_dl_cpu
