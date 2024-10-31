@@ -6,8 +6,7 @@ USER root
 # Install the ca-certificates package to avoid SSL certificate issues
 RUN apt-get update && \
     apt-get upgrade -yq && \
-    apt-get install -yq \
-        ca-certificates && \
+    apt-get install -yq ca-certificates && \
     # cleanup
     rm -rf /var/lib/apt/lists/*
 
