@@ -24,8 +24,8 @@ COPY py3_knime.yml /home/knime/py3_knime.yml
 RUN /home/knime/miniconda3/condabin/conda env create -f /home/knime/py3_knime.yml
 RUN /home/knime/miniconda3/condabin/conda clean -ay
 RUN rm -rf /home/knime/py3_knime.yml
-COPY knime_dl_cpu.yml /home/knime/knime_dl_cpu.yml
-RUN /home/knime/miniconda3/condabin/conda env create -f /home/knime/knime_dl_cpu.yml
-RUN /home/knime/miniconda3/condabin/conda clean -ay
-RUN rm -rf /home/knime/knime_dl_cpu.yml
+# COPY knime_dl_cpu.yml /home/knime/knime_dl_cpu.yml
+# RUN /home/knime/miniconda3/condabin/conda env create -f /home/knime/knime_dl_cpu.yml
+# RUN /home/knime/miniconda3/condabin/conda clean -ay
+# RUN rm -rf /home/knime/knime_dl_cpu.yml
 
